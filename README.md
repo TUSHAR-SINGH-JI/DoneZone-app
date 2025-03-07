@@ -1,16 +1,50 @@
-# papa
+# To-Do App
 
-A new Flutter project.
+# Hi, I'm Tushar! 👋
 
-## Getting Started
+## 📱 To-Do App - A Flutter App
 
-This project is a starting point for a Flutter application.
+A simple and intuitive to-do app built using Flutter to help you manage tasks efficiently with local storage support.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ Add, edit, and delete tasks
+- 🌗 Dark mode support
+- 💾 Local storage for offline accessibility
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 Getting Started
+
+Follow these instructions to run the project locally:
+
+```sh
+git clone https://github.com/your-repo/todo_app.git
+```
+
+```sh
+cd todo_app
+```
+
+```sh
+flutter pub get
+```
+
+```sh
+flutter run
+```
+
+## 🛠 Built With
+
+- 🚀 Flutter
+- 🎯 Dart
+- 🔧 Provider (State Management)
+- 💾 Shared Preferences (Local Storage)
+
+---
+
+💙 Happy Coding!
+
+## Feedback
+
+If you have any feedback, please reach out to us at tushar458155@gmail.com
+

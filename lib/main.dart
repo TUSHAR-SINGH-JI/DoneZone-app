@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:papa/page/ToDoPage.dart';
+import 'package:papa/page/intro_page.dart';
 void main() async{
   await Hive.initFlutter();
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +15,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Todopage(),
+      initialRoute: "/",
+      routes: {
+        '/': (context) => const IntroPage(), // Splash or intro screen
+        '/home': (context) => const Todopage(), // Main home screen
+      },
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
